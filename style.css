@@ -1,0 +1,990 @@
+/*For iPad*/
+@media (min-width: 768px) and (max-width: 1024px) {
+   /**/
+}
+
+/*For iPadPro*/
+@media (min-width: 834px) and (max-width: 1194px) {
+    /**/
+}
+
+/*For Desktop */
+@media (min-width: 900px) and (max-width: 1440px) {
+   *{
+    width: auto;
+  }
+}
+
+@font-face {
+   font-family: proFont;
+   src: url(apercu_bold_pro.otf);
+}
+
+*{
+    font-family: proFont;
+}
+
+.topnav{
+    background-color: #685DC5;
+    position: absolute;
+    width: 1440px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+}
+
+.logonav{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    left: 5%;
+    top: 30.18%;
+    bottom: 24.54%;
+}
+
+
+.buttonnav{
+    position: absolute;
+    right: 19.55%;
+    top: 25.55%;
+    bottom: 24.54%;
+    
+}
+
+.buttondes{
+    width: 140px;
+    padding:40px ;
+    border-radius:70px;
+	text-align: center;
+	font-weight: bold;
+    font-size:18px;
+	color:white;
+	background: #6c9e5f;
+	border:2px solid  #6c9e5f;
+    transition:  0.2s;
+	
+}
+
+.buttondes:hover {width: 150px;}
+
+
+.content1 {
+	width:85%;
+	padding:100px;
+	margin:auto;
+	text-align: left;
+}
+
+.imgcontent{
+    position: absolute;
+    height: 220px;
+    left: 29.2%;
+    right: 51.5%;
+    top: 175.98px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    transform: rotate(20deg);
+}
+
+.Logocontent{
+    position: absolute;
+height: 80px;
+left: 55.56%;
+right: 38.89%;
+top: 261px;
+}
+
+.p1 {
+
+    position: absolute;
+    height: 96px;
+    left: 13.89%;
+    right: 55.56%;
+    top: 261px;
+    font-family:proFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    color: #685DC5;
+}
+
+.p2 {
+
+    position: absolute;
+    height: 64px;
+    left: 13.96%;
+    right: 55.49%;
+    top: 405px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+.p3{
+    position: absolute;
+    height: 160px;
+    left: 13.89%;
+    right: 55.56%;
+    top: 509px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #636363;
+
+}
+
+.p4{
+    position: absolute;
+    height: 33px;
+    left: 14.03%;
+    right: 55.56%;
+    top: 709px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color:  #535353;
+}
+
+
+.content1 button{
+    Width:126px;
+    height: 58px;
+    left: 13.89%;
+    right: 55.56%;
+    top: 800px;
+    position: absolute;
+    background: #685DC5;
+    border:2px solid  #685DC5;
+    border-radius: 29px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FFFFFF;
+
+}
+
+.c1{
+    position: absolute;
+    height: 24px;
+    left: 63.89%;
+    right: 27.78%;
+    top: 269px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    }
+
+.c2{
+    position: absolute;
+    height: 24px;
+    left: 63.96%;
+    right: 19.44%;
+    top: 303px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: -0.27px;
+    color: #535353;
+}
+
+.imgPattern{
+    position: absolute;
+    width: 560px;
+    height: 257px;
+    left: 880px;
+    top: 613px;
+    border: 1px solid #E6E6E6;
+}
+
+.formtop{
+    box-sizing: border-box;
+    position: absolute;
+    width: 480px;
+    height: 116px;
+    left: 800px;
+    top: 368px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.formbottom{
+    box-sizing: border-box;
+    position: absolute;
+    width: 480px;
+    height: 200px;
+    left: 800px;
+    top: 514px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.title{
+    position: absolute;
+    height: 24px;
+    left: 11%;
+    right: 61.84%;
+    top: calc(50% - 24px/2 - 19.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.145455px;
+    color: #685DC5;
+}
+
+.time{
+    position: absolute;
+    height: 24px;
+    left: 10%;
+    right: 1.84%;
+    top: calc(50% - 24px/2 + 20.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: -0.27px;
+    color: #535353;
+}
+strong{
+    color: #685DC5;
+}
+.location{
+    position: absolute;
+    height: 49px;
+    left: 12%;
+    right: 82.03%;
+    top: calc(50% - 49px/2 - 35.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.duration{
+    position: absolute;
+    height: 73px;
+    left: 60.57%;
+    right: -0.29%;
+    top: calc(50% - 73px/2 - 23.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.Start{
+    position: absolute;
+    height: 49px;
+    left: 12%;
+    right: 58.26%;
+    top: calc(50% - 49px/2 + 36.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.end{
+    position: absolute;
+    height: 49px;
+    left: 60.57%;
+    right: -2.9%;
+    top: calc(50% - 49px/2 + 36.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.imgPattern1{
+    position: absolute;
+    width: 438px;
+    height: 438px;
+    left: 203px;
+    top: 1030px;
+   
+}
+.imgedit{
+
+    position: absolute;
+    width: 400px;
+    height: 380.18px;
+    left: 220.78px;
+    top: 1059px;
+    border-radius: 100%;
+   
+}
+ .c2titel{
+    position: absolute;
+    height: 112px;
+    left: 52.78%;
+    right: 13.96%;
+    top: 1106px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    color: #685DC5;
+}
+
+.c2par{
+    position: absolute;
+    height: 160px;
+    left: 52.78%;
+    right: 13.96%;
+    top: 1258px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+.leftform{
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 524px;
+    left: 201px;
+    top: 1540px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.leftformtxt{
+    position: absolute;
+    height: 24px;
+    left: 12%;
+    right: 23.75%;
+    top:30px ;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.145455px;
+    color: #685DC5;
+}
+
+.leftformprice{
+    position: absolute;
+    height: 34px;
+    left:12%;
+    right: 0%;
+    top: 97px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.436364px;
+    color: #535353;
+}
+
+.leftformhr{
+    width: 250px;
+    position: absolute;
+    left: 45px;
+    top: 300px;
+    height: 20x;
+    border: 1px solid #DADADA;
+}
+.Tuition{
+    position: absolute;
+    height: 49px;
+    left: 12%;
+    right: 25.17%;
+    top: 380px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.Remaining{
+    position: absolute;
+    height: 49px;
+    left: 60%;
+    right: 65.69%;
+    top: 380px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+
+}
+
+.Living{
+    position: absolute;
+    height: 49px;
+    left: 12%;
+    right: -20.41%;
+    top: 450px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+
+.top1form{
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 274px;
+    left: 561px;
+    top: 1540px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+.top1formtxt{
+    position: absolute;
+    height: 24px;
+    left: 6%;
+    right: 50%;
+    top: calc(50% - 24px/2 - 89px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.145455px;
+    color: #685DC5;
+    
+}
+
+.top1formprice{
+    position: absolute;
+    height: 35px;
+    left: 6%;
+    right: 45.19%;
+    top: calc(50% - 35px/2 - 51.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.185714px;
+    color: #6A6A6A;
+}
+
+.txtpre1{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 52.48%;
+    bottom: 0%;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.top1formhr{
+    position: absolute;
+    width: 50px;
+    left: 40px;
+    top: 110px;
+    border: 1px solid #DADADA;
+
+}
+
+.top2form{
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 274px;
+    left: 921px;
+    top: 1540px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+
+}
+
+.top2formtxt{
+    position: absolute;
+    height: 24px;
+    left: 6%;
+    right: 50.74%;
+    top: calc(50% - 24px/2 - 101px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.145455px;
+    color: #685DC5;
+}
+
+.top2formprice{
+    position: absolute;
+    height: 35px;
+    left:6%;
+    right: 45.19%;
+    top: calc(50% - 35px/2 - 63.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.185714px;
+    color: #6A6A6A;
+}
+.top2formhr{
+    position: absolute;
+    width: 50px;
+    left: 40px;
+    top: 100px;
+    border: 1px solid #DADADA;
+
+}
+.txtpre2{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 46.9%;
+    bottom: 0%;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.bottomform{
+    box-sizing: border-box;
+    position: absolute;
+    width: 680px;
+    height: 178px;
+    left: 561px;
+    top: 1886px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.bottomformtxt{
+    position: absolute;
+    height: 24px;
+    left: 2%;
+    right: 76.34%;
+    top: calc(50% - 24px/2 - 53px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.145455px;
+    color: #685DC5;
+}
+.bottomformprice{
+    position: absolute;
+    height: 35px;
+    left: 2%;
+    right: 66.11%;
+    top: calc(50% - 35px/2 - 15.5px);
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.185714px;
+    color: #6A6A6A;
+}
+.bottomformhr{
+    position: absolute;
+    width: 50px;
+    left: 40px;
+    top: 100px;
+    border: 1px solid #DADADA;
+
+}
+.txtpre3{
+    position: absolute;
+    left: 2%;
+    right: 0%;
+    top: 81.54%;
+    bottom: 0%;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.hr1{
+    width: 280px;
+    position: absolute;
+    left: 565px;
+    top: 1840px;
+    height: 20x;
+    border: 1px solid #DADADA;
+}
+
+.hr2{
+    width: 265px;
+    position: absolute;
+    left: 980px;
+    top: 1840px;
+    height: 20x;
+    border: 1px solid #DADADA;
+
+}
+
+.txtmiddel{
+    position: absolute;
+    height: 24px;
+    left: 64.03%;
+    right: 42.92%;
+    top: 1840px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.145455px;
+    color: #535353;
+}
+
+.imgPattern3{
+    position: absolute;
+    width: 1120px;
+    height: 394.07px;
+    left: 112px;
+    top: 2234px;
+    border: 1px solid #E6E6E6;
+}
+
+.imagslider{
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    height: 459.92px;
+    left: 272px;
+    top: 2343.08px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.content3titel{
+    position: absolute;
+    height: 96px;
+    left: 13.89%;
+    right: 55.56%;
+    top: 2900px;
+    font-family:'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    color: #685DC5;
+    
+}
+
+.filter{
+    position: absolute;
+    height: 20px;
+    left: 70%;
+    top: 2940px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: right;
+    color: #6A6A6A;
+}
+
+select{
+    box-sizing: border-box;
+    height: 30px;
+    width: 15%;
+    position: absolute;
+    left: 75%;
+    right: 0%;
+    top: 2940px;
+    bottom: 0%;
+    border: 1px solid #DADADA;
+    border-radius: 29px;
+}
+
+
+.q1{
+    position: absolute;
+    width: 1041px;
+    height: 1px;
+    left: 190px;
+    top: 3050px;
+    border: 1px solid  #6A6A6A;
+}
+
+.butshow1{
+
+    position: absolute;
+    height: 40px;
+    width:40px;
+    left: 85%;
+    top: 3100px;
+    border: 1px solid #838181;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+
+}
+.butshow1:hover {
+    width: 60px;
+    height: 50px;
+  }
+.titel1{
+    position: absolute;
+    left: 15%;
+    top: 3100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #685DC5;
+}
+
+.titel1parg1{
+    position: absolute;
+    left: 45%;
+    top: 3100px;
+    font-style: normal;
+    
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+.parg{
+    position: absolute;
+    left: 45%;
+    top: 3100px;
+    font-style: normal;
+    font-size: 15px;
+    
+    letter-spacing: -0.33px;
+    color: #535353;
+    margin: 20px;
+}
+
+.q2{
+    
+    position: absolute;
+    width: 1041px;
+    height: 1px;
+    left: 190px;
+    top: 3450px;
+    border: 1px solid  #6A6A6A;
+}
+.butshow2{
+    position: absolute;
+    height: 40px;
+    width:40px;
+    left: 85%;
+    top: 3500px;
+    border: 1px solid #838181;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    
+}
+.titel2{
+    position: absolute;
+    left: 15%;
+    top: 3500px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #685DC5;
+}
+
+.titel1parg2{
+    position: absolute;
+    left: 45%;
+    top: 3500px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+.q3{
+
+    position: absolute;
+    width: 1041px;
+    height: 1px;
+    left: 190px;
+    top: 3550px;
+    border: 1px solid  #6A6A6A;
+    
+}
+
+.butshow3{
+    position: absolute;
+    height: 40px;
+    width:40px;
+    left: 85%;
+    top: 3600px;
+    border: 1px solid #838181;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+.titel3{
+    position: absolute;
+    left: 15%;
+    top: 3600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #685DC5;
+
+}
+
+.titel1parg3{
+    position: absolute;
+    left: 45%;
+    top: 3600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+.q4{
+    position: absolute;
+    width: 1041px;
+    height: 1px;
+    left: 190px;
+    top: 3650px;
+    border: 1px solid  #6A6A6A;
+}
+.butshow4{
+    position: absolute;
+    height: 40px;
+    width:40px;
+    left: 85%;
+    top: 3700px;
+    border: 1px solid #838181;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.titel4{
+    position: absolute;
+    left: 15%;
+    top: 3700px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #685DC5;
+}
+.titel1parg4{
+    position: absolute;
+    left: 45%;
+    top: 3700px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+.q5{
+
+    position: absolute;
+    width: 1041px;
+    height: 1px;
+    left: 190px;
+    top: 3750px;
+    border: 1px solid  #6A6A6A;
+    
+}
